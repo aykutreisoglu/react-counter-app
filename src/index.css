@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(to right, #e9cf7b 0%, #9ae7f1 100%);
+  font-family: monospace;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  border: 5px solid #ccc;
+  border-radius: 10px;
+  align-items: center;
+  position: relative;
+  left: 600px;
+  top: 200px;
+}
+h1 {
+  text-align: center;
+  font-size: 45px;
+}
+
+p {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn:hover {
+  background-color: rgb(129, 81, 81);
+  transition: all 0.7s ease-in-out;
+}
